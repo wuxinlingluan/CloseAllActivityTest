@@ -21,6 +21,9 @@ public class MyApp extends Application {
         for (Activity activity : activities) {
             activity.finish();
         }
-        activities.clear();
+       activities.clear();
     }
+        public void remove(Activity activity){
+            activities.remove(activity);
+        }
 }

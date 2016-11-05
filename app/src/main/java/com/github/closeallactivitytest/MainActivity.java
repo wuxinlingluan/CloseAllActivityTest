@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         app.exit();
+        app.remove(this);
   //      super.onBackPressed();
     }
+
 }
